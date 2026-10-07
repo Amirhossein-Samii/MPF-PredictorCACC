@@ -3,7 +3,7 @@
 %  (leader L + 9 followers), constant-time-headway (CTH) spacing policy.
 %
 %  Overview
-%  - Every vehicle has a first-order actuation lag (time constant tau_i)
+%  - Every vehicle has a third-order vehicle's dynamic
 %    and a common input (actuation) delay D = d*ts.
 %  - Vehicle i receives data from its predecessors over V2V links that have
 %    vehicle-dependent communication delays D_c_j = d_c_j*ts.
