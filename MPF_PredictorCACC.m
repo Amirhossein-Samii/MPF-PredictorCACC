@@ -7,9 +7,8 @@
 %    and a common input (actuation) delay D = d*ts.
 %  - Vehicle i receives data from its predecessors over V2V links that have
 %    vehicle-dependent communication delays D_c_j = d_c_j*ts.
-%  - Each follower uses a predictor (Artstein-type, finite-horizon
-%    integral) to compensate the actuation delay D, plus an integral-like
-%    term (sigma) that compensates the mismatch caused by communication
+%  - Each follower uses a predictor to compensate the actuation delay D, plus an integral-like
+%    term (sigma) that compensates the communication
 %    delay.
 %  - Followers 1-2 use all available predecessors; followers 3-9 use
 %    the three preceding vehicles (11-dimensional state).
