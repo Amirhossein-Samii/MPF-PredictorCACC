@@ -16,6 +16,8 @@ The script in this repository simulates the ten-vehicle platoon (a leader and ni
 * Followers 1 and 2 use all available predecessors; followers 3 to 9 use the three preceding vehicles.
 * The leader performs a braking and acceleration maneuver, and the script plots the resulting spacing, speed, acceleration, and control input of every vehicle.
 
+* The mathematical background and the documentation for the codes are briefly desribed in the file "codesdoc.pdf.".
+
 ## Requirements
 
 * MATLAB R2022b or later (the script uses only base MATLAB functions, e.g. `expm`; no additional toolboxes are needed)
