@@ -1,0 +1,4 @@
+MATLAB codes to reproduce the simulation results from Section 4 (IV) of the paper "Predictor-Feedback CACC for Vehicular Platoons with Actuation and Communication Delays Based on a Multiple-Predecessor-Following CTH Nominal Strategy" by Amirhossein Samii, Dimitrios Angelopoulos, and Nikolaos Bekiaris-Liberis.
+Copyright (C) 2026 by Amirhossein Samii
+
+The project is lincesed under  CC BY-NC-ND. For a copy of the license, see https://creativecommons.org/licenses/by-nc-nd/4.0/
