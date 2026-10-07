@@ -25,13 +25,13 @@ The script in this repository simulates the ten-vehicle platoon (a leader and ni
 1. Clone or download this repository:
 
 ```
-   git clone https://github.com/<username>/<repo>.git
+   git clone https://github.com/<Amirhossein-Samii>/<MPF-PredictorCACC>.git
    ```
 
 2. Open MATLAB and navigate to the project folder:
 
 ```
-   cd /path/to/<repo>
+   cd /path/to/<MPF-PredictorCACC>
    ```
 
 ## Usage
@@ -40,18 +40,18 @@ The script in this repository simulates the ten-vehicle platoon (a leader and ni
 2. Run the main script:
 
 ```
-   MPF\_PredictorCACC
+   MPF_PredictorCACC
    ```
 
 3. Four figures are produced: spacing, speed, acceleration, and control input of all vehicles.
 
-Simulation settings (horizon, step size, actuation delay) are at the top of the script. Each vehicle's communication delay, time constant, time headway, and controller gains (`a\_i`, `b\_i`, `c\_i`) are defined in the "Defining Vehicles and control parameters" section. The leader's maneuver is defined in the "Leader's maneuver" section.
+Simulation settings (horizon, step size, actuation delay) are at the top of the script. Each vehicle's communication delay, time constant, time headway, and controller gains (`a_i`, `b_i`, `c_i`) are defined in the "Defining Vehicles and control parameters" section. The leader's maneuver is defined in the "Leader's maneuver" section.
 
 Note: the predictor integrals are evaluated numerically at every time step, so a full run (100 s of simulated time, step 0.01 s) is computationally heavy and may take a while.
 
 ### Files
 
-* `MPF\_PredictorCACC.m`: ten-vehicle platoon simulation with the MPF predictor-feedback CACC design
+* `MPF_PredictorCACC.m`: ten-vehicle platoon simulation with the MPF predictor-feedback CACC design
 
 ## Examples
 
